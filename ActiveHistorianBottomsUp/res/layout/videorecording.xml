@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+
+        <VideoView
+            android:id="@+id/Video"
+            android:layout_width="match_parent"
+            android:layout_height="249dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/Status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/Stop"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_marginTop="15dp"
+        android:text="Not Recording"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/Record"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="14dp"
+        android:layout_marginLeft="64dp"
+        android:text="Record" />
+
+    <Button
+        android:id="@+id/Stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/Record"
+        android:layout_alignBottom="@+id/Record"
+        android:layout_marginLeft="54dp"
+        android:layout_toRightOf="@+id/Record"
+        android:text="Stop" />
+
+</RelativeLayout>
