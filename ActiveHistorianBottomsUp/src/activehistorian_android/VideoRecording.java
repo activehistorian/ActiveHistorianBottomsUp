@@ -1,4 +1,4 @@
-package com.example.activehistorianbottomsup;
+package activehistorian_android;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -14,6 +14,7 @@ import com.dropbox.client2.exception.DropboxUnlinkedException;
 import com.dropbox.client2.session.AccessTokenPair;
 import com.dropbox.client2.session.AppKeyPair;
 import com.dropbox.client2.session.Session.AccessType;
+import com.example.activehistorianbottomsup.R;
 
 import android.app.Activity;
 import android.content.pm.ActivityInfo;

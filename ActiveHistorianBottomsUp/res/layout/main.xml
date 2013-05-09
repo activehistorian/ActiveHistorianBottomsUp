@@ -4,30 +4,31 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     >
-	<Button 
-      android:id="@+id/linking" 
-	  android:text="Link with Dropbox" 
-      android:layout_width="fill_parent"
-      android:layout_height="wrap_content"
-	  />
+
     <LinearLayout
-        android:id="@+id/logged_in_display" 
-        android:orientation="vertical"
+        android:id="@+id/logged_in_display"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:layout_weight="1"
-        >
+        android:background="@color/black"
+        android:gravity="center"
+        android:orientation="vertical" >
 
-		<!-- <ImageView
-		    android:id="@+id/image_view"
-		    android:layout_width="fill_parent"
-		    android:layout_height="284dp" /> -->
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="0.53"
+            android:scaleType="fitCenter"
+            android:src="@drawable/logo2" />
 
-		<LinearLayout
-		    android:orientation="horizontal"
-		    android:layout_width="fill_parent"
-		    android:layout_height="wrap_content"
-		    >
-        </LinearLayout>
+        <Button
+            android:id="@+id/linking"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="350dp"
+            android:text="Link with Dropbox" />
     </LinearLayout>
+
 </LinearLayout>

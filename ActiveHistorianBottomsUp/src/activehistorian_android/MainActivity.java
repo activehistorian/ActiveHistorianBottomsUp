@@ -1,4 +1,4 @@
-package com.example.activehistorianbottomsup;
+package activehistorian_android;
 
 import com.dropbox.client2.DropboxAPI;
 import com.dropbox.client2.android.AndroidAuthSession;
@@ -7,6 +7,7 @@ import com.dropbox.client2.session.AccessTokenPair;
 import com.dropbox.client2.session.AppKeyPair;
 import com.dropbox.client2.session.Session.AccessType;
 import com.dropbox.client2.session.TokenPair;
+import com.example.activehistorianbottomsup.R;
 
 import android.net.Uri;
 import android.os.Bundle;
